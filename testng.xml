@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Deck of Cards test Suite" verbose="1">
+    <test name="Test Cases">
+    	<parameter name="deck-count" value="2" />
+        <classes>
+        	<class name="com.swetha.deckofcards.test.TestSuiteSetup"></class>
+            <class name="com.swetha.deckofcards.test.NewDeckTestCase"></class>
+            <class name="com.swetha.deckofcards.test.DrawCardTestCase"></class>
+        </classes>
+    </test>  
+</suite>
